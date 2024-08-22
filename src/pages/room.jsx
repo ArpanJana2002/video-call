@@ -14,8 +14,8 @@ const RoomPage = () => {
             return;
         }
 
-        const appID = 1729859975; // Replace with your actual app ID
-        const serverSecret = "b7453c5511226b472afc0e57c3784006"; // Replace with your actual server secret
+        const appID = REACT_APP_ZEGOCLOUD_APP_ID; // Replace with your actual app ID
+        const serverSecret = REACT_APP_ZEGOCLOUD_SERVER_SECRET; // Replace with your actual server secret
         const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomId, Date.now().toString(), userName);
         const zp = ZegoUIKitPrebuilt.create(kitToken);
 
