@@ -16,23 +16,7 @@ This is a React-based video call application that leverages ZEGOCLOUD for real-t
 - **ZEGOCLOUD**: A cloud platform providing video conferencing capabilities.
 - **React Router DOM**: For handling routing in the application.
 
-my-video-call-app/
-│
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-│
-├── src/
-│   ├── pages/
-│   │   ├── home.jsx
-│   │   └── room.jsx
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-│
-├── .gitignore
-├── package.json
-├── README.md
-└── .env
+![357088025-f9a82bd8-fff2-4281-8839-9ba8e5745d3a](https://github.com/user-attachments/assets/3fc584f6-679e-443e-9c3e-f37df3a3e971)
+
 
 
